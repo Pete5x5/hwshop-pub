@@ -1,6 +1,6 @@
 /* CUSTOM-CSS */
 
-*, div[class*="color-scheme-"], .announcement-bar__text {
+div[class*="color-scheme-"], .announcement-bar__text {
   /* OKLCH COLOURS */
   /* H Williams Blue */
   --color-hwblue: hsl(203, 69%, 38%);
