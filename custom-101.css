@@ -1,0 +1,104 @@
+/* CUSTOM-CSS */
+
+*, div[class*="color-scheme-"], .announcement-bar__text {
+  /* OKLCH COLOURS */
+  /* H Williams Blue */
+  --color-hwblue: hsl(203, 69%, 38%);
+  --color-hwblue-light: hsl(203, 69%, 43%);
+  --color-hwblue-dark:  hsl(203, 69%, 33%);
+
+  /* Accent Grays */
+  --color-gray: oklch(26.9% 0 0);
+  --color-gray-light: oklch(37.1% 0 0);
+  --color-gray-dark: oklch(20.5% 0 0);
+
+  /* Accent Yellows */
+  --color-yellow: oklch(85.2% 0.199 91.936);
+  --color-yellow-light: oklch(90.5% 0.182 98.111);
+  --color-yellow-dark: oklch(79.5% 0.184 86.047);
+
+  /* Accent Reds */
+  --color-red: oklch(50.5% 0.213 27.518);
+  --color-red-light: oklch(57.7% 0.245 27.325);
+  --color-red-dark: oklch(44.4% 0.177 26.899);
+
+  /* Neutrals */
+  --color-black: oklch(14.5% 0 0);
+  --color-white: oklch(98.5% 0 0);
+  
+  --color-background: var(--color-white);
+  /* RGB values only to apply different opacities - Relative color values are not supported in iOS < 16.4 */
+  --color-background-rgb: var(--color-background);
+  --opacity-5-15: 0.05;
+  --opacity-10-25: 0.1;
+  --opacity-35-55: 0.35;
+  --opacity-40-60: 0.4;
+  --opacity-30-60: 0.3;
+  --color-foreground: var(--color-black);
+  --color-foreground-rgb: var(--color-foreground);
+  --color-foreground-heading: var(--color-black);
+  --color-foreground-heading-rgb: var(--color-foreground-heading);
+  --color-primary: var(--color-hwblue);
+  --color-primary-rgb: var(--color-primary);
+  --color-primary-hover: var(--color-hwblue-dark);
+  --color-primary-hover-rgb: var(--color-primary-hover);
+  --color-border: var(--color-gray-light);
+  --color-border-rgb: var(--color-border);
+  --color-shadow: var(--color-black);
+  --color-shadow-rgb: var(--color-shadow);
+  --color-primary-button-text: var(--color-white);
+  --color-primary-button-background: var(--color-hwblue);
+  --color-primary-button-border: var(--color-hwblue-dark);
+  --color-primary-button-hover-text: var(--color-white);
+  --color-primary-button-hover-background: var(--color-hwblue-dark);
+  --color-primary-button-hover-border: var(--color-hwblue-dark);
+  --color-secondary-button-text: rgb(255 255 255 / 1.0);
+  --color-secondary-button-background: rgb(239 239 239 / 1.0);
+  --color-secondary-button-border: rgb(0 0 0 / 1.0);
+  --color-secondary-button-hover-text: rgb(0 0 0 / 1.0);
+  --color-secondary-button-hover-background: rgb(222 222 222 / 1.0);
+  --color-secondary-button-hover-border: rgb(0 0 0 / 1.0);
+  --color-input-background: var(--color-white);
+  --color-input-text: var(--color-black);
+  --color-input-text-rgb: var(--color-input-text);
+  --color-input-border: rgb(0 0 0 / 0.08);
+  --color-input-hover-background: rgb(245 245 245 / 1.0);
+  --color-variant-background: rgb(255 255 255 / 1.0);
+  --color-variant-border: rgb(230 230 230 / 1.0);
+  --color-variant-text: rgb(0 0 0 / 1.0);
+  --color-variant-text-rgb: 0 0 0;
+  --color-variant-hover-background: rgb(245 245 245 / 1.0);
+  --color-variant-hover-text: rgb(0 0 0 / 1.0);
+  --color-variant-hover-border: rgb(230 230 230 / 1.0);
+  --color-selected-variant-background: rgb(0 0 0 / 1.0);
+  --color-selected-variant-border: rgb(0 0 0 / 1.0);
+  --color-selected-variant-text: rgb(255 255 255 / 1.0);
+  --color-selected-variant-hover-background: rgb(26 26 26 / 1.0);
+  --color-selected-variant-hover-text: rgb(255 255 255 / 1.0);
+  --color-selected-variant-hover-border: rgb(26 26 26 / 1.0);
+
+  --input-disabled-background-color: rgb(var(--color-foreground-rgb) / var(--opacity-10));
+  --input-disabled-border-color: rgb(var(--color-foreground-rgb) / var(--opacity-5-15));
+  --input-disabled-text-color: rgb(var(--color-foreground-rgb) / var(--opacity-50));
+  --color-foreground-muted: rgb(var(--color-foreground-rgb) / var(--opacity-60));
+  --font-h1--color: var(--color-foreground-heading);
+  --font-h2--color: var(--color-foreground-heading);
+  --font-h3--color: var(--color-foreground-heading);
+  --font-h4--color: var(--color-foreground-heading);
+  --font-h5--color: var(--color-foreground-heading);
+  --font-h6--color: var(--color-foreground-heading);
+
+  /* Shadows */
+  --shadow-blur: 20px;
+  --shadow-popover: 0px 4px 20px rgb(var(--color-shadow-rgb) / var(--opacity-15));
+  
+}
+
+.compare-at-price {
+  color: var(--color-red);
+  opacity: 1;
+}
+
+.announcement-bar__slides {
+  height: calc(100% + 2px);
+}
