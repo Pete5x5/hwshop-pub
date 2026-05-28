@@ -1,6 +1,5 @@
 /* CUSTOM-CSS */
-
-div[class*="color-scheme-"], .announcement-bar__text {
+*, div, body {
   /* OKLCH COLOURS */
   /* H Williams Blue */
   --color-hwblue: hsl(203, 69%, 38%);
@@ -25,7 +24,9 @@ div[class*="color-scheme-"], .announcement-bar__text {
   /* Neutrals */
   --color-black: oklch(14.5% 0 0);
   --color-white: oklch(98.5% 0 0);
-  
+}
+
+div[class*="color-scheme-"], .announcement-bar__text {
   --color-background: var(--color-white);
   /* RGB values only to apply different opacities - Relative color values are not supported in iOS < 16.4 */
   --color-background-rgb: var(--color-background);
@@ -101,4 +102,21 @@ div[class*="color-scheme-"], .announcement-bar__text {
 
 .announcement-bar__slides {
   height: calc(100% + 2px);
+}
+
+.menu-list__link-title, .menu-list__link {
+  --opacity-subdued-text: 1;
+}
+
+.menu-list__link-title:hover, .menu-list__link:hover {
+  color: var(--color-hwblue-dark);
+}
+
+.mega-menu__link--parent {
+  font-size: 16px;
+  text-decoration: underline double;
+}
+
+.mega-menu__link:hover {
+  color: var(--color-hwblue-dark);
 }
