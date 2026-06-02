@@ -152,6 +152,7 @@ div[class*="color-scheme-"], .announcement-bar__text {
 .mega-menu__link--parent {
   font-size: 16px;
   text-decoration: underline double;
+  text-decoration-thickness: 0.1px;
 }
 
 .mega-menu__link:hover {
