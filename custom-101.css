@@ -46,6 +46,7 @@
   /* Accent Grays */
   --color-gray: oklch(26.9% 0 0);
   --color-gray-light: oklch(37.1% 0 0);
+  --color-gray-lighter: oklch(87.1% 0 0);
   --color-gray-dark: oklch(20.5% 0 0);
 
   /* Accent Yellows */
@@ -186,7 +187,7 @@ footer #shopify-section-sections--19585184792650__media_with_content_RqxiU3 p {
 }
 
 #shopify-section-template--19585184366666__product_list_EDUBdR .quick-add {
-  border: var(--color-hwblue) 1px dotted;
+  border: var(--color-gray-lighter) 1px solid;
 }
 
 .ai-bento-box-aakfnn0vxbu51v3dpaaigenblockb3e9eb5amzy8a [class*="ai-bento-box__button"] {
