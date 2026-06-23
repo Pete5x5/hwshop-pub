@@ -162,3 +162,33 @@ div[class*="color-scheme-"], .announcement-bar__text {
 .ai-heading-block__heading-avmvtr2rloutvsnl0caigenblockbc23fe7webpkr {
   font-family: "Sorts Mill Goudy", serif, sans-serif;
 }
+
+div .ai-heading-block-avmvtr2rloutvsnl0caigenblockbc23fe7webpkr {
+  background-color: #002555;
+  background-blend-mode: luminosity;  
+}
+
+footer #shopify-section-sections--19585184792650__media_with_content_RqxiU3 {
+  background-color: #1e71a4;
+  background-image:  radial-gradient(#0c5e91 1.2px, transparent 1.2px), radial-gradient(#0c5e91 1.2px, #1e71a4 1.2px);
+  background-size: 16px 16px;
+  background-position: 0 0,8px 8px;
+}
+
+footer #shopify-section-sections--19585184792650__media_with_content_RqxiU3 button {
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  border-radius: 100px;
+}
+
+footer #shopify-section-sections--19585184792650__media_with_content_RqxiU3 p {
+  color: var(--color-white);
+}
+
+#shopify-section-template--19585184366666__product_list_EDUBdR .quick-add {
+  border: var(--color-hwblue) 1px dotted;
+}
+
+.ai-bento-box-aakfnn0vxbu51v3dpaaigenblockb3e9eb5amzy8a [class*="ai-bento-box__button"] {
+  border: 2px solid var(--color-white);
+}
