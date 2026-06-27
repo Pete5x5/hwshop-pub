@@ -198,3 +198,16 @@ div [class^="ai-bento-box__button"] {
 [class*=button_th889C] {
   font-size: 16px;
 }
+
+.footer-store-locations__heading {
+  font-weight: bold;
+}
+
+.footer-store-locations a {
+  color: var(--color-hwblue-dark);
+  text-decoration: none;
+}
+
+.footer-store-locations {
+  text-align: center;
+}
