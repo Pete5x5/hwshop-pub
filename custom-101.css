@@ -214,11 +214,14 @@ div [class^="ai-bento-box__button"] {
 
 [class^="product-badges"] div {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border: white 1px solid;
 }
 
 [class^="product-badges"] div:not([class*="badge--text"]) {
-  background-color: var(--color-red);
+  background-color: var(--color-red-light);
   color: white;
 }
 
@@ -228,8 +231,13 @@ div [class^="ai-bento-box__button"] {
 }
 
 [class$="top-gift"] {
-  color: var(--color-white);
-  background-color: lightcoral;
+  color: var(--color-gray-light);
+  background-color: var(--color-yellow);
+}
+
+[class$="best-seller"] {
+  color: var(--color-gray-light);
+  background-color: lightseagreen;
 }
 
 /* Select a custom badge that follows a sale badge under the same parent */
