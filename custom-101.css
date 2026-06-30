@@ -232,6 +232,11 @@ div [class^="ai-bento-box__button"] {
   background-color: lightcoral;
 }
 
+/* Select a custom badge that follows a sale badge under the same parent */
+[class^="product-badges"] div:not([class*="badge--text"]) ~ [class*="badge--text"] {
+  display: none;
+}
+
 @media screen and (max-width: 749px) {
   .footer-content > :not(.divider) {
     padding-left: 5%;
