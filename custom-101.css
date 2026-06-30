@@ -223,3 +223,15 @@ div [class^="ai-bento-box__button"] {
   font-size: 14px;
   content: "!";
 }
+
+@media screen and (max-width: 749px) {
+  .footer-content > :not(.divider) {
+    padding-left: 5%;
+  }
+
+  .footer-content > .group-block > div > * {
+    width: fit-content;
+    align-self: end;
+    margin-right: 5%;
+  }
+}
