@@ -211,3 +211,15 @@ div [class^="ai-bento-box__button"] {
 .footer-store-locations {
   text-align: center;
 }
+
+[class^="product-badges"] div {
+  background-color: var(--color-red);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+[class^="product-badges"] div:after {
+  font-size: 14px;
+  content: "!";
+}
