@@ -245,9 +245,9 @@ div [class^="ai-bento-box__button"] {
   display: none;
 }
 
-.appointment-request__choice input:checked:hover {
-  background-color: var(--color-input-text);
-  color: var(--color-input-background);
+.card-gallery {
+  border: solid 1px var(--color-gray-lighter);
+}
 
 @media screen and (max-width: 749px) {
   .footer-content > :not(.divider) {
