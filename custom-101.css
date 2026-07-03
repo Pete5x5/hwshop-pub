@@ -217,7 +217,7 @@ div [class^="ai-bento-box__button"] {
   font-weight: normal;
   text-transform: uppercase;
   padding: 6px 14px;
-  border: white 1px solid;
+  border: white 2px solid;
 }
 
 [class^="product-badges"] div:not([class*="badge--text"]) {
