@@ -245,6 +245,10 @@ div [class^="ai-bento-box__button"] {
   display: none;
 }
 
+.appointment-request__choice input:checked:hover {
+  background-color: var(--color-input-text);
+  color: var(--color-input-background);
+
 @media screen and (max-width: 749px) {
   .footer-content > :not(.divider) {
     padding-left: 5%;
