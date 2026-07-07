@@ -253,6 +253,11 @@ div [class^="ai-bento-box__button"] {
   font-style: italic;
 }
 
+.terms-policies-popover {
+  background-color: var(--color-white);
+  border: black solid 2px;
+}
+
 @media screen and (max-width: 749px) {
   .footer-content > :not(.divider) {
     padding-left: 5%;
