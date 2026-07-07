@@ -249,6 +249,10 @@ div [class^="ai-bento-box__button"] {
   border: solid 1px var(--color-gray-lighter);
 }
 
+.cash-loans-reviews__quote {
+  font-style: italic;
+}
+
 @media screen and (max-width: 749px) {
   .footer-content > :not(.divider) {
     padding-left: 5%;
