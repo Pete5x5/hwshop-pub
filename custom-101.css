@@ -164,7 +164,7 @@ h2[class^="ai-heading-block__heading-"] {
   font-family: "Sorts Mill Goudy", serif, sans-serif;
 }
 
-div [class^="ai-heading-block-"] {
+[id*="cf6Htb"] + div [class^="ai-heading-block-"] {
   background-color: #002555;
   background-blend-mode: luminosity;  
 }
