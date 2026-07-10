@@ -65,7 +65,7 @@
 }
 
 div[class*="color-scheme-"], .announcement-bar__text {
-  --color-background: var(--color-white);
+  --color-background: white;
   /* RGB values only to apply different opacities - Relative color values are not supported in iOS < 16.4 */
   --color-background-rgb: var(--color-background);
   --opacity-5-15: 0.05;
