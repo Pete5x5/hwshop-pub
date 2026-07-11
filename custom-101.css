@@ -195,7 +195,7 @@ div [class^="ai-bento-box__button"] {
   border: 2px solid var(--color-white);
 }
 
-[class*=button_th889C] {
+[class*=button_th889C], [class*=button_th889C] + a {
   font-size: 16px;
 }
 
@@ -256,6 +256,12 @@ div [class^="ai-bento-box__button"] {
 .terms-policies-popover {
   background-color: var(--color-white);
   border: black solid 2px;
+}
+
+.button.engagement-ring-quiz__products {
+  font-size: 16px;
+  width: fit-content;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 749px) {
