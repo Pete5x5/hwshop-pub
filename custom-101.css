@@ -193,10 +193,12 @@ footer [id^=shopify-section-sections-][id$=media_with_content_RqxiU3] p {
 
 div [class^="ai-bento-box__button"] {
   border: 2px solid var(--color-white);
+  font-weight: bold;
 }
 
 [class*=button_th889C], [class*=button_th889C] + a {
   font-size: 16px;
+  font-weight: bold;
 }
 
 .footer-store-locations__heading {
@@ -214,10 +216,16 @@ div [class^="ai-bento-box__button"] {
 
 [class^="product-badges"] div {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: uppercase;
-  padding: 6px 14px;
+  padding: 6px 22px 6px 18px;;
   border: white 2px solid;
+  border-left: 0px;
+  filter: none;
+}
+
+[class*="product-badges--top-left"] {
+  left: 0;
 }
 
 [class^="product-badges"] div:not([class*="badge--text"]) {
