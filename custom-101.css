@@ -247,6 +247,7 @@ div [class^="ai-bento-box__button"] {
 
 .card-gallery {
   border: solid 1px var(--color-gray-lighter);
+  border-radius: 0px;
 }
 
 .cash-loans-reviews__quote {
