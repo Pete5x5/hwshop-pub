@@ -273,6 +273,14 @@ div [class^="ai-bento-box__button"] {
   font-weight: normal;
 }
 
+/* make menu items that link to "#" unclickable and regular colour*/
+a[href="#"] {
+  pointer-events: none;
+}
+a[href="#"]:hover, a[href="#"]:visited {
+  color: inherit;
+}
+
 @media screen and (max-width: 749px) {
   .footer-content > :not(.divider) {
     padding-left: 5%;
