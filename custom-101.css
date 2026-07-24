@@ -133,42 +133,46 @@ div[class*="color-scheme-"], .announcement-bar__text {
   
 }
 
+/* Make compare at price red */
 .compare-at-price {
   color: var(--color-red);
   opacity: 1;
 }
 
+/* Fix top bar being very slightly cut off */
 .announcement-bar__slides {
   height: calc(100% + 2px);
 }
 
-.menu-list__link-title, .menu-list__link {
-  --opacity-subdued-text: 1;
-}
-
+/* Menu hover colour */
 .menu-list__link-title:hover, .menu-list__link:hover {
   color: var(--color-hwblue-dark);
 }
 
+/* Top menu subtitles styling */
 .mega-menu__link--parent {
   font-size: 16px;
   text-decoration: underline double;
   text-decoration-thickness: 0.1px;
 }
 
+/* Top menu dropdown hover colour */
 .mega-menu__link:hover {
   color: var(--color-hwblue-dark);
 }
 
+/* Font for home page little banner "big moments" */
 h2[class^="ai-heading-block__heading-"] {
   font-family: "Sorts Mill Goudy", serif, sans-serif;
 }
 
+/* Background colour tinting for home page little banner "big moments" */
 [id*="cf6Htb"] + div [class^="ai-heading-block-"] {
   background-color: #002555;
   background-blend-mode: luminosity;  
 }
 
+/* Mailing list home page signup background */
 footer [id^=shopify-section-sections-][id$=media_with_content_RqxiU3] {
   background-color: #1e71a4;
   background-image:  radial-gradient(#0c5e91 1.2px, transparent 1.2px), radial-gradient(#0c5e91 1.2px, #1e71a4 1.2px);
@@ -176,73 +180,87 @@ footer [id^=shopify-section-sections-][id$=media_with_content_RqxiU3] {
   background-position: 0 0,8px 8px;
 }
 
+/* Mailing list home page signup button */
 footer [id^=shopify-section-sections-][id$=media_with_content_RqxiU3] button {
   color: var(--color-white);
   border: 2px solid var(--color-white);
   border-radius: 100px;
 }
 
+/* Mailing list home page signup text colour */
 footer [id^=shopify-section-sections-][id$=media_with_content_RqxiU3] p {
   color: var(--color-white);
 }
 
-
+/* Home page quick add products border */
 [id^=shopify-section-][id$=product_list_EDUBdR] .quick-add {
   border: var(--color-gray-lighter) 1px solid;
 }
 
+/* Home page "bento box" buttons */
 div [class^="ai-bento-box__button"] {
   border: 2px solid var(--color-white);
   font-weight: bold;
 }
 
+/* Home page top 2 buttons */
 [class*=button_th889C], [class*=button_th889C] + a {
   font-size: 16px;
   font-weight: bold;
 }
 
+/* Footer location headings */
 .footer-store-locations__heading {
   font-weight: bold;
 }
 
+/* Footer phone number styling */
 .footer-store-locations a {
   color: var(--color-hwblue-dark);
   text-decoration: none;
 }
 
+/* Footer store locations alignment */
 .footer-store-locations {
   text-align: center;
 }
 
+/* Product badge styling */
 [class^="product-badges"] div {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   padding: 6px 22px 6px 18px;;
   border: white 2px solid;
+/*   No left border since the badges are all the way to the left */
   border-left: 0px;
   filter: none;
 }
 
+/* Move badges all the way to the left */
 [class*="product-badges--top-left"] {
   left: 0;
 }
 
+/* Style sale badges NOT the other ones */
 [class^="product-badges"] div:not([class*="badge--text"]) {
   background-color: red;
   color: white;
 }
 
+/* Add "!" to sale badges */
 [class^="product-badges"] div:not([class*="badge--text"]):after {
   font-size: 14px;
   content: "!";
 }
 
+/* Style top gift badge */
 [class$="top-gift"] {
   color: var(--color-gray-light);
   background-color: var(--color-yellow);
 }
 
+/* Style best seller badge */
 [class$="best-seller"] {
   color: var(--color-gray-light);
   background-color: lightseagreen;
@@ -253,6 +271,7 @@ div [class^="ai-bento-box__button"] {
   display: none;
 }
 
+/* border for item pictures */
 .card-gallery {
   border: solid 1px var(--color-gray-lighter);
   border-radius: 0px;
