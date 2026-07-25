@@ -281,11 +281,13 @@ div [class^="ai-bento-box__button"] {
   font-style: italic;
 }
 
+/* Style terms and policies popup in footer */
 .terms-policies-popover {
   background-color: var(--color-white);
   border: black solid 2px;
 }
 
+/* Engagement ring quiz button */
 .button.engagement-ring-quiz__products {
   font-size: 16px;
   width: fit-content;
@@ -300,11 +302,14 @@ a[href="#"]:hover, a[href="#"]:visited {
   color: inherit;
 }
 
+/* ---MEDIA QUERIES--- */
+/* move the footer content over a bit on mobile */
 @media screen and (max-width: 749px) {
   .footer-content > :not(.divider) {
     padding-left: 5%;
   }
 
+/* move the footer icons over the right on mobile */
   .footer-content > .group-block > div > * {
     width: fit-content;
     align-self: end;
