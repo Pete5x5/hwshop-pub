@@ -302,6 +302,16 @@ a[href="#"]:hover, a[href="#"]:visited {
   color: inherit;
 }
 
+/* Find page button styling */
+.staff-search__actions .button {
+  background-color: var(--color-hwblue);
+  color: white;
+}
+
+.staff-search__actions .button:hover {
+  background-color: var(--color-hwblue-dark);
+}
+
 /* ---MEDIA QUERIES--- */
 /* move the footer content over a bit on mobile */
 @media screen and (max-width: 749px) {
