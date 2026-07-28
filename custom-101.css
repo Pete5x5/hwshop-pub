@@ -277,6 +277,11 @@ div [class^="ai-bento-box__button"] {
   border-radius: 0px;
 }
 
+/* Fix product card corners on search page */
+.product-card__content {
+  border-radius: 0px;
+}
+
 .cash-loans-reviews__quote {
   font-style: italic;
 }
