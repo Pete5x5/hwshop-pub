@@ -313,9 +313,25 @@ a[href="#"]:hover, a[href="#"]:visited {
   color: white;
 }
 
+/* Power user search button colour */
 .staff-search__actions .button:hover {
   background-color: var(--color-hwblue-dark);
 }
+
+/* Product description icons TEXT size */
+div[class*="ai-icon-properties__text"] {
+  font-size: 18px;
+  align-self: center;
+}
+
+/* Product description icons ICON size */
+div[class*="ai-icon-properties__icon"] {
+  height: 30px;
+  width: 30px;
+  align-self: baseline;
+  margin-top: 0px;
+} 
+
 
 /* ---MEDIA QUERIES--- */
 /* move the footer content over a bit on mobile */
