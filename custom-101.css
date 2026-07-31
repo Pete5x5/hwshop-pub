@@ -255,13 +255,13 @@ div [class^="ai-bento-box__button"] {
 }
 
 /* Style top gift badge */
-[class$="top-gift"] {
+div[class$="top-gift"] {
   color: var(--color-gray-light);
   background-color: var(--color-yellow);
 }
 
 /* Style best seller badge */
-[class$="best-seller"] {
+div[class$="best-seller"] {
   color: var(--color-gray-light);
   background-color: lightseagreen;
 }
