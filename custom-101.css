@@ -133,10 +133,15 @@ div[class*="color-scheme-"], .announcement-bar__text {
   
 }
 
-/* Make compare at price red */
+/* Make compare at price no opacity */
 .compare-at-price {
-  color: var(--color-red);
   opacity: 1;
+}
+
+/* Make sale prices red and bold */
+.price-item--sale {
+  color: red;
+  font-weight: bold;
 }
 
 /* Fix top bar being very slightly cut off */
