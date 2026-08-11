@@ -337,6 +337,13 @@ div[class*="ai-icon-properties__icon"] {
   margin-top: 0px;
 } 
 
+/* Set units to come after icon decription and value */
+.Hoop-Thickness:after {
+  content: "mm";
+  align-self: center;
+  margin-left: -6px;
+}
+
 
 /* ---MEDIA QUERIES--- */
 /* move the footer content over a bit on mobile */
