@@ -344,6 +344,16 @@ div[class*="ai-icon-properties__icon"] {
   margin-left: -6px;
 }
 
+/* Make menu items but not submenu bold, dial back black a bit so it's not too bold */
+.mega-menu__link:not(ul > li > a) {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Indent submenu items */
+ul > li > .mega-menu__link {
+  padding-left: 12px;
+}
 
 /* ---MEDIA QUERIES--- */
 /* move the footer content over a bit on mobile */
