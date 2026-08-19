@@ -208,8 +208,10 @@ div [class^="ai-bento-box__button"] {
   font-weight: bold;
 }
 
-/* Home page top 2 buttons */
-[class*=button_th889C], [class*=button_th889C] + a {
+/* Home page top 2 buttons and jewellery care page button */
+[class*=button_th889C], [class*=button_th889C] + a, .jewellery-care__service-button {
+  background-color: var(--color-hwblue);
+  color: var(--color-white);
   font-size: 16px;
   font-weight: bold;
 }
