@@ -244,8 +244,8 @@ div [class^="ai-bento-box__button"] {
   filter: none;
 }
 
-/* Move badges all the way to the left */
-[class*="product-badges--top-left"] {
+/* Keep badges flush left after collection filtering/sorting re-renders the grid. */
+.product-badges.product-badges--top-left {
   left: 0;
 }
 
